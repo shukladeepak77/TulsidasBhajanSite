@@ -7,7 +7,7 @@ the same single-page pattern as the sibling Aarti Sangrah / Meera Bhajan
 sites.
 
 Verse text only — no meaning/translation, matching the rest of this family
-of sites. All 8 compositions here are by Goswami Tulsidas (c. 1532–1623),
+of sites. All 7 compositions here are by Goswami Tulsidas (c. 1532–1623),
 author of the Ramcharitmanas — public domain devotional poetry, author
 deceased roughly 400 years ago.
 
@@ -17,6 +17,14 @@ Ramcharitmanas itself or the Hanuman Chalisa, both of which already have
 their own dedicated sites elsewhere in this family (Ramcharitmanas Katha,
 and Hanuman Chalisa inside Aarti Sangrah's own content). This avoids
 duplicating what's already published and adds genuinely distinct content.
+An earlier version included "जो सुमिरत सिधि होइ", which turned out on
+closer check to be a sortha FROM Ramcharitmanas's own Bal Kand opening
+(not a separate Vinay Patrika pada) — removed per explicit request, since
+it duplicated Ramcharitmanas Katha's content rather than adding to it.
+"माँगत तुलसीदास कर जोरे" was similarly folded into "गाइये गणपति जगवंदन"
+once it became clear it's that pada's own closing couplet, not a
+standalone composition — keeping both separately would have been an
+internal duplicate on this site's own content.
 
 Every title was individually web-search-verified before inclusion (exact
 line matches against hindwi.org, kavitakosh.org, bharatdiscovery.org,

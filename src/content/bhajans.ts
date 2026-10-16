@@ -15,14 +15,28 @@ export type Bhajan = {
 // (c. 1532–1623), author of the Ramcharitmanas — public domain devotional
 // poetry by an author who died roughly 400 years ago. Deliberately scoped
 // to his OTHER devotional works (Vinay Patrika, Kavitavali, Dohavali) and
-// Bajrang Baan, not Ramcharitmanas itself or the Hanuman Chalisa, both of
+// Bajrang Baan — NOT Ramcharitmanas itself or the Hanuman Chalisa, both of
 // which already have their own dedicated sites elsewhere in this family
-// (Ramcharitmanas Katha, and Hanuman Chalisa inside Aarti Sangrah) — so
-// this site adds distinct content rather than duplicating it. Presented as
-// the commonly-sung core verses/opening of each composition, not a full
-// critical-edition text (several, especially from Vinay Patrika, are
-// excerpted openings rather than the complete pada).
+// (Ramcharitmanas Katha, and Hanuman Chalisa inside Aarti Sangrah). An
+// earlier version of this file included "जो सुमिरत सिधि होइ", which turned
+// out on closer check to be a sortha FROM Ramcharitmanas's own Bal Kand
+// opening (not a separate Vinay Patrika composition) — removed per request,
+// since it duplicates content already published on Ramcharitmanas Katha.
+// Presented as the commonly-sung core verses/opening of each composition,
+// not a full critical-edition text (several, especially from Vinay
+// Patrika, are excerpted openings rather than the complete pada).
 export const bhajans: Bhajan[] = [
+  {
+    slug: "gaiye-ganpati-jagvandan",
+    title: "गाइये गणपति जगवंदन",
+    subtitle: "गोस्वामी तुलसीदास कृत — विनय पत्रिका, प्रथम पद",
+    verses: [
+      { id: 1, text: `गाइये गणपति जगवंदन। शंकर सुवन भवानी नंदन॥` },
+      { id: 2, text: `सिद्धि सदन गजवदन विनायक। कृपा सिंधु सुंदर सब लायक॥` },
+      { id: 3, text: `मोदक प्रिय मुद मंगल दाता। विद्या बारिधि बुद्धि विधाता॥` },
+      { id: 4, text: `माँगत तुलसीदास कर जोरे। बसहिं राम सिय मानस मोरे॥` },
+    ],
+  },
   {
     slug: "shri-ramchandra-kripalu-bhajman",
     title: "श्री रामचंद्र कृपालु भजमन",
@@ -88,15 +102,7 @@ export const bhajans: Bhajan[] = [
       { id: 1, text: `दीन दयाल बिरदु सम्भारी। हरहु नाथ मम संकट भारी॥` },
       { id: 2, text: `राम भरोसो राम बल, राम नाम बिस्वास।
 सुमिरत सुभ मंगल कुसल, मांगत तुलसीदास॥` },
-    ],
-  },
-  {
-    slug: "maangat-tulsidas-kar-jore",
-    title: "माँगत तुलसीदास कर जोरे",
-    subtitle: "गोस्वामी तुलसीदास कृत — विनय पत्रिका",
-    verses: [
-      { id: 1, text: `माँगत तुलसीदास कर जोरे। बसहिं राम सिय मानस मोरे॥` },
-      { id: 2, text: `एक भरोसो, एक बल, एक आस विश्वास।
+      { id: 3, text: `एक भरोसो, एक बल, एक आस विश्वास।
 स्वाति-सलिल रघुनाथ-जस, चातक तुलसीदास॥` },
     ],
   },
@@ -109,15 +115,6 @@ export const bhajans: Bhajan[] = [
 तेहि के कारज सकल शुभ, सिद्ध करैं हनुमान॥` },
       { id: 2, text: `जय हनुमंत संत हितकारी। सुनि लीजै प्रभु अरज हमारी॥
 जन के काज बिलम्ब न कीजै। आतुर दौरि महासुख दीजै॥` },
-    ],
-  },
-  {
-    slug: "jo-sumirat-sidhi-hoi",
-    title: "जो सुमिरत सिधि होइ",
-    subtitle: "गोस्वामी तुलसीदास कृत — विनय पत्रिका (गणेश वंदना)",
-    verses: [
-      { id: 1, text: `जो सुमिरत सिधि होइ, गन नायक करिबर बदन।
-करउ अनुग्रह सोइ, बुद्धि रासि सुभ गुन सदन॥` },
     ],
   },
 ];
